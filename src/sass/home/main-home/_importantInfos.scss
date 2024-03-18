@@ -1,0 +1,60 @@
+.wrapHomeImportant{
+  color: $color4;
+  font-weight: bold;
+  display: none;
+  
+  a{
+    width: 50px;
+    height: 50px;
+
+    svg{
+      width: 25px;
+      height: 25px;
+    }
+
+    img{
+      width: 35px !important;
+      height: 35px !important;
+    }
+  }
+
+  button{
+    margin-bottom: 10px;
+
+    img{
+      width: 35px !important;
+      height: 35px !important;
+    }
+  }
+
+  .wrapImportantRoundedEl{
+    box-shadow: 0px 0px 4px 1px $fontPrimary;
+    border-bottom: 1px solid $color3;
+    background-color: $color2;
+    width: 100%;
+  
+    .containerImportantEls{
+      box-shadow: 0px 0px 4px 1px $fontPrimary;
+      width: 100%;
+    };
+  };
+};
+
+@media screen and (max-width: 370px){
+  .wrapHomeImportant{
+    display: flex;
+    margin-top: 10px;
+  }
+};
+
+@media screen and (max-width: 250px){
+  .wrapHomeImportant{
+    margin-bottom: 0;
+  }
+};
+
+@media screen and (max-width: 170px){
+  .wrapHomeImportant{
+    margin-top: 15px;
+  }
+};

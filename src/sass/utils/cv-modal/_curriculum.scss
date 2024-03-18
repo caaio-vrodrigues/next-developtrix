@@ -1,0 +1,36 @@
+.bgModalCV{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background-color: #0c472bcb;
+  box-shadow: 2px 1px 7px 1px $fontPrimary;
+
+  .wrapCV{
+    box-shadow: 2px 1px 7px 1px $color4;
+    padding: 5px;
+    width: 10%;
+    min-width: 110px;
+    margin: 0 auto;
+  
+    .CVIcons{
+      color: $color4;
+    }
+    
+    .CVIcons:hover{
+      transition: 0.2s;
+      color: white;
+    }
+  
+    .IconX:hover{
+      color: rgb(250, 96, 96);
+    }
+  
+    .CVContent{
+      max-width: 650px;
+      display: none;
+    }
+  }  
+}
+
+

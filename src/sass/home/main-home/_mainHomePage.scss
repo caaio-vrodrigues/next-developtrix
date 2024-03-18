@@ -1,0 +1,92 @@
+.mainHomeUp{
+  font-family: $fontParagraph !important;
+  box-shadow: 2px 1px 7px 1px $fontPrimary;
+  border-radius: 15px;
+  margin-top: 90px;
+  margin-bottom: 70px;
+
+  .wrapMainSocial{
+    min-width: 65px;
+  }
+};
+
+@media screen and (max-width: 1620px){
+  .mainHomeUp{
+    margin-top: 80px;
+  }
+};
+
+@media screen and (max-width: 990px){
+  .mainHomeUp{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .wrapMainSocial{
+      width: 100%;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1.4rem;
+
+      a{
+        margin-left: 10px;
+      }
+    }
+
+    .wrapAccordCarrous{
+      margin: 0;
+      width: 96%;
+
+      .accordionHome{
+        margin-bottom: 0;
+      }
+
+      .secCaroussel{
+        margin-bottom: 0;
+
+        .wrapTopicCaroussel{
+          margin-top: 0;
+        }
+      }
+    }
+
+    .devSkillHome{
+      margin: 0;
+      margin-bottom: 40px;
+      width: 96%;
+    }
+  }
+};
+
+@media screen and (max-width: 500px){
+  .mainHomeUp {
+    box-shadow: 0 0 0 0;
+    margin-top: 60px;
+    margin-bottom: 0;
+  }
+};
+
+@media screen and (max-width: 330px){
+  .mainHomeUp{
+    margin-top: 107px;
+  }
+};
+
+@media screen and (max-width: 300px){
+  .mainHomeUp{
+    margin-top: 100px;
+  }
+};
+
+@media screen and (max-width: 250px){
+  .mainHomeUp{
+    margin-top: 80px;
+  }
+};
+
+@media screen and (max-width: 170px){
+  .mainHomeUp{
+    margin-top: 100px;
+  }
+};

@@ -1,0 +1,80 @@
+.devSkillHome{
+  background-color: rgba(0, 0, 0, 0.444);
+  box-shadow: 2px 1px 7px 1px $fontPrimary;
+  height: fit-content;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  .h1DevSkillHome{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-bottom: 5%;
+    color: $fontPrimary;
+  }
+
+  .wrapImgsSkillsHome{
+    max-width: 400px;
+  }
+};
+
+@media screen and (max-width: 1250px){
+  .devSkillHome .wrapImgsSkillsHome{
+    max-width: 400px;
+  }
+};
+
+@media screen and (max-width: 500px){
+  .devSkillHome {
+    box-shadow: 0px 0px 4px 1px $fontPrimary;
+  }
+};
+
+
+@media screen and (max-width: 390px){
+  .devSkillHome{
+    .h1DevSkillHome{
+      font-size: 22px !important;
+    }
+
+    .wrapImgsSkillsHome{
+      min-width: 0;
+      width: 80%;
+
+      img{
+        width: 60px;
+        height: 60px;
+      }
+    }
+  }
+};
+
+@media screen and (max-width: 290px){
+  .devSkillHome .imgGoSkills{
+    width: 20%;
+    height: 20%;
+  }
+};
+
+@media screen and (max-width: 250px){
+  .devSkillHome{
+    padding-bottom: 8%;
+
+    .wrapImgsSkillsHome{
+      min-width: 0;
+      width: 150px;
+
+      .imgGoSkills{
+        width: 30%;
+        height: 30%;
+      }
+    }
+  }
+};
+
+@media screen and (max-width: 175px){
+  .devSkillHome .wrapImgsSkillsHome img{
+    width: 40px !important;
+    height: 40px !important;
+  }
+};

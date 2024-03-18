@@ -1,0 +1,39 @@
+// Variables must be always on the top of the doc
+@import './utils/variables';
+
+// body
+@import './body/bodyLay';
+
+// home
+@import './home/headerHome';
+  // footer
+  @import './home/footer/footerHome';
+  // main-home
+  @import './home/main-home/goPageDevSkills';
+  @import './home/main-home/importantInfos';
+  @import './home/main-home/mainHomePage';
+
+// pages
+  // develop-infos
+  @import './pages/develop-infos/baseLayout';
+  @import './pages/develop-infos/cardDevSkill';
+  @import './pages/develop-infos/list';
+  @import './pages/develop-infos/mainDevelopInfos';
+  
+// utils
+@import './utils/buttonLink';
+  // accordion
+  @import './utils/accordion/accordionHome';
+  // caroussel
+  @import './utils/caroussel/caroussel';
+  // cv-modal
+  @import './utils/cv-modal/curriculum';
+  // rounded-elements
+  @import './utils/rounded-elements/roundedElements';
+
+
+  
+
+
+
+

@@ -1,0 +1,87 @@
+.roundedEl{
+  width: 55px;
+  height: 55px;
+  margin-bottom: 12px;
+  box-shadow: 2px 1px 7px 1px $fontPrimary;
+  border-radius: 50%;
+  background-color: $color2;
+  color: $color4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  .imgRounded{
+    width: 40px;
+    height: 40px;
+  }
+};
+
+.roundedEl:hover{ 
+  transition: transform 0.2s, border 0.2s;
+  background-color: $color3;
+  border: 2px solid $color4; 
+  transform: translate(-3px, -3px); 
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.678); 
+};
+
+@media screen and (max-width: 1250px){
+  .secRoundedEls{
+    flex-direction: row;
+    justify-content: space-around;
+    width: 25vw;
+  }
+};
+
+@media screen and (max-width: 1030px){
+  .secRoundedEls{
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30vw;
+  }
+};
+
+@media screen and (max-width: 880px){
+  .secRoundedEls{
+    width: 35vw;
+  }
+};
+
+@media screen and (max-width: 737px){
+  .secRoundedEls{
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40vw;
+  }
+};
+
+@media screen and (max-width: 635px){
+  .secRoundedEls{
+    width: 100%;
+
+    a{
+      width: 50px;
+      height: 50px;
+
+      svg{
+        width: 25px;
+        height: 25px;
+      }
+
+      img{
+        width: 35px !important;
+        height: 35px !important;
+      }
+    }
+
+    button{
+      width: 50px;
+      height: 50px;
+
+      img{
+        width: 35px !important;
+        height: 35px !important;
+      }
+    }
+  }
+};

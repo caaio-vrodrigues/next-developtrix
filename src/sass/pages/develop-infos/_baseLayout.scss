@@ -1,0 +1,61 @@
+
+@media screen and (max-width: 770px){
+  .baseLay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+
+    .baseLayCard{
+      width: 400px;
+    }
+  }
+};
+
+@media screen and (max-width: 440px){
+  .baseLay .baseLayCard{
+    width: 300px;
+  }
+};
+
+@media screen and (max-width: 400px){
+  .baseLay{
+    width: 80%;
+
+    .baseLayCard{
+      width: 100%;
+    }
+  }
+};
+
+@media screen and (max-width: 215px){
+  .baseLay{
+    width: 100%;
+
+    .baseLayCard{
+      margin-bottom: 10%;
+
+      article{
+        padding: 7% 0 7% 0;
+        
+        h1{
+          font-size: large;
+        }
+      }
+    }
+  }
+};
+
+@media screen and (max-width: 185px){
+  .baseLay{
+    width: 95%;
+  }
+};
+
+@media screen and (max-width: 168px){
+  .baseLayCard{
+    width: 95%;
+    padding: 3%;
+  }
+};

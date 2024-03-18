@@ -1,0 +1,155 @@
+header{
+  background-color: $color2;
+  box-shadow: 0.5vw 0.2vw 1vw 0.2vw black;
+  max-height: 60px;
+
+  h1{
+    margin: 3%;
+    text-shadow: 5px 5px 1px black;
+  }
+
+  menu{
+    .liMenu{
+      svg{
+        width: 3.2vw;
+        min-width: 35px;
+        height: 3.8vh;
+        padding: 4%;
+        border-radius: 10%;
+        box-shadow: 2px 1px 7px 1px black;
+      }
+  
+      svg:hover{
+        transition: 0.2s;
+        background-color: $color3;
+      };
+    }
+  }
+
+  .wrapLogoMobile{
+    display: none;
+
+    h1{
+      font-size: 1.3rem;
+      text-shadow: 5px 5px 1px black;
+    }
+
+    img{
+      max-height: 30px;
+      max-width: 90px;
+    }
+  }
+
+  .menuHamburg{
+    button{
+      border-radius: 10%;
+      padding: 0.5%;
+      box-shadow: 2px 1px 7px 1px black;
+    };
+    
+    button:hover{
+      transition: 0.2s;
+      color: whitesmoke;
+    }
+  };
+
+  .menuMobile{
+    display: none;
+
+    a{
+      box-shadow: 1px 0.5px 4px 0.5px black;
+
+      svg{
+        margin: 2%;
+        min-height: 35px;
+        min-width: 30px;
+      }
+    }
+
+    a:hover{
+      transition: 0.2s;
+      padding: 2%;
+      background-color: $color2;
+    }
+  }
+};
+
+@media screen and (max-width: 767px){
+  header{
+    max-height: fit-content;
+
+    .wrapLogoH1Menu{
+      max-height: 40px;
+
+      img{
+        width: 100px;
+      }
+  
+      h1{
+        font-size: 1.7rem;
+      }
+    }
+  }
+
+  .menuMobile{
+    display: flex !important;
+  }
+};
+
+@media screen and (max-width: 450px){
+  header .wrapLogoMobile{
+    display: flex;
+  }
+};
+
+@media screen and (max-width: 330px){
+  header{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+
+    .wrapLogoH1Menu{
+      max-height: none;
+      margin: 2%;
+
+      .wrapLogoMobile{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1{
+          font-size: 1.25rem;
+          text-shadow: 5px 5px 1px black;
+        }
+
+        img{
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+};
+
+@media screen and (max-width: 200px){
+  header .wrapLogoMobile h1{
+    font-size: 1.2rem;
+  }
+};
+
+@media screen and (max-width: 170px){
+  header .wrapLogoH1Menu{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .wrapLogoMobile{
+      margin-bottom: 5px;
+    }
+  }
+};
+
+
+
+
+

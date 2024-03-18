@@ -1,0 +1,37 @@
+.linkHome{
+  font-family: $fontTitle;
+  background-color: $fontPrimary;
+  color: black;
+  font-weight: 700;
+  box-shadow: 5px 2px 10px 1px black;
+};
+
+.linkHome:hover{
+  transition: 0.3s;
+  background-color: $color2;
+  color: white;
+};
+
+@media screen and (max-width: 450px){
+  .linkHome{
+    margin: 0;
+    font-size: 15px;
+  }
+};
+
+@media screen and (max-width: 335px){
+  .linkHome{
+    width: 90%;
+    margin-left: 0 !important;
+  }
+};
+
+@media screen and (max-width: 250px){
+  main{
+    padding: 5%;
+  }
+
+  .linkHome{
+    margin-top: 3%;
+  }
+};
